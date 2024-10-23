@@ -15,7 +15,7 @@ public class TaskController {
     }
 
     @GetMapping
-    public List<Task> getAllCharacters() {
-        return taskService.getAllCharacters();
+    public List<Task> getAllTasks() {
+        return taskService.getAllTasks();
     }
 }

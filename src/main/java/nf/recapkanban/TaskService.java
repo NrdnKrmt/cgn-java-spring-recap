@@ -15,7 +15,7 @@ public class TaskService {
         this.idService = idService;
     }
 
-    public List<Task> getAllCharacters() {
+    public List<Task> getAllTasks() {
         return taskRepository.findAll();
     }
 }
